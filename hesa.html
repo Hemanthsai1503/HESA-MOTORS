@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HESA Motors | Where Innovation Meets Road</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: url('./WALLP.jpg') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: right;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 80px 0;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 40px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">HESA Motors</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#explore">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#models">Models</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1 class="animate__animated animate__fadeInDown">Where Innovation Meets Road</h1>
+      <p class="lead animate__animated animate__fadeInUp">Experience the future of driving with HESA Motors</p>
+    </div>
+  </section>
+
+  <!-- Explore Section -->
+  <section id="explore" class="section text-center">
+    <div class="container">
+      <h2 class="mb-5">Explore HESA Motors</h2>
+      <p class="lead">Discover our innovation in performance, luxury interiors, and cutting-edge technology designed to elevate your drive.</p>
+     <div class="card h-100 shadow-sm">
+            <img height="500px" width="500px" src="./INTERIOR.jpg" class="card-img-top" alt="Defender">
+            <div class="col-md-4 mb-4"></div>
+            <div class="card h-100 shadow-sm">
+              <img height="600" width="500" src="./DEF_90_RALLY_SERIES_INFOG_280224.jpg" class="card-img-top" alt="Defender">
+    </div>
+  </section>
+
+  <!-- Models Section -->
+  <section id="models" class="section bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Models</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./DEF_OCTA_25MY_DETAIL_PETRA_030724_04.jpg" class="card-img-top" alt="Defender">
+            <div class="card-body">
+              <h5 class="card-title">HESA TerraX</h5>
+              <p class="card-text">Bold, Powerful, and Engineered to conquer any terrain.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./3. RR_24MY_ELECTRIFIED_FOR_THE_FUTURE_170523.jpg" class="card-img-top" alt="Velar">
+            <div class="card-body">
+              <h5 class="card-title">HESA Nexonix</h5>
+              <p class="card-text">Elegance meets performance in our most stylish SUV yet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="./2. RR_24MY_DESIGN_ENABLING_TECHNOLOGIES_170523.jpg" class="card-img-top" alt="SV">
+            <div class="card-body">
+              <h5 class="card-title">HESA Elance</h5>
+              <p class="card-text">The pinnacle of luxury and technology, Redefining driving excellence.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact">
+    <div class="container text-center">
+      <h4>Contact us</h4>
+      <p>Email: support@hesamotors.com | Phone: +91 7670883235</p>
+      <p>Prebook now to unleash HESA</p>
+      <p>&copy; 2025 HESA Motors. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
